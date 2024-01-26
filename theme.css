@@ -1,0 +1,55 @@
+body {
+	--radius-s: 0px;
+	--radius-m: 0px;
+	--radius-l: 0px;
+	--input-radius: 0px;
+	--tab-radius-active: 0px;
+	--checkbox-radius: 0px;
+	--toggle-radius: 0px;
+	--toggle-thumb-radius: 0px;
+	--slider-thumb-radius: 0px;
+}
+
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.theme-dark {
+	--background-primary: #18004F;
+	--background-secondary: #220070;
+  }
+  
+  .theme-light {
+	--background-primary: #3d515e;
+	--background-secondary: #d3381c ;
+	--embed-block-shadow-hover: #833042;
+	--tab-background-active: #D6C6AF;
+	--text-normal: #D6C6AF;
+	--link-color: #ffff;
+  }
+
+  /* Haruka Isumi #9EBAAE #9EBAAE
+Toma Inumaru #833042 #833042
+Minami Natsume #D6C6AF #D6C6AF
+Torao Mido #8f7576 #8f7576 */
+/* あお　#3d515e */
+/* あか　#d3381c */
