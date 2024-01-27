@@ -144,7 +144,7 @@ Torao Mido #8f7576 #8f7576 */
 	  var(--theme-accent-s),
 	  calc(var(--theme-accent-l) - 10%)
 	);
-	--text-normal: #833042;
+	--text-normal: #000;
 	--text-muted: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 20%));
 	--text-faint: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 47%));
   
